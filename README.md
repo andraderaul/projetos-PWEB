@@ -1,2 +1,2 @@
 # projetosPWEB
-Projeto da diciplina Programação Web 2016.2
+Projeto da disciplina Programação Web 2016.2
