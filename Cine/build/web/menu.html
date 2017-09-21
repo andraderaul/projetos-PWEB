@@ -1,0 +1,206 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+    rel="stylesheet" type="text/css">
+    
+    <link href="styleForm.css"
+    rel="stylesheet" type="text/css">
+    
+    <link href="styleTable.css"
+    rel="stylesheet" type="text/css">
+    
+    <style>
+      .input{color:#ccc;}
+          .input:focus{color:#000;}
+    </style>
+  </head>
+  
+  <body style="background-color:#D3D3D3;">
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span>Cine</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <center>
+      <h1 > <span class="label label-primary">Compre seu ingresso!</span> </h1>
+    </center>  
+   
+   <form action="Verificar" method="get">    
+    <div class="section">
+      <div class="container">
+        <div class="row"> 
+            <div class="col-md-12 text-center">             
+            </br>
+            <span class="badge badge-warning">1º</span>
+            <div>
+                <h2> <span class="label label-info"> Escolha o Filme </span> </h2> 
+            </div>
+            
+               <center>
+              <table class="table table-bordered table-hover">
+                <tbody>
+                  <tr>
+                    <td>C002</td>
+                    <td>Pulp Fiction</td>
+                    <td>Quentin Tarantino</td>
+                    <td>1994</td>
+                    <td><input type = "radio" name = "filme" value = "C002" checked></td>
+                  </tr>
+                  <tr>
+                    <td>C003</td>
+                    <td>A Clockwork Orange</td>
+                    <td>Stanley Kubrick</td>
+                    <td>1971</td>
+                    <td><input type = "radio" name = "filme" value = "C003"></td>
+                  </tr>
+                  <tr>
+                    <td>D004</td>
+                    <td>Donnie Darko</td>
+                    <td>Richard Kelly</td>
+                    <td>2001</td>
+                    <td><input type = "radio" name = "filme" value = "D004"></td>
+                  </tr>
+                  <tr>
+                    <td>R003</td>
+                    <td>Fight Club</td>
+                    <td>David Fincher</td>
+                    <td>1999</td>
+                    <td><input type = "radio" name = "filme" value = "R003"></td>
+                  </tr>
+                  <tr>
+                    <td>R006</td>
+                    <td>Taxi Drive</td>
+                    <td>Martin Scorsese</td>
+                    <td>1976</td>
+                    <td><input type = "radio" name = "filme" value = "R006"></td>
+                  </tr>
+                  <tr>
+                    <td>S001</td>
+                    <td>Interstellar</td>
+                    <td>Christopher Nolan</td>
+                    <td>2014</td>
+                    <td><input type = "radio" name = "filme" value = "S001"></td>
+                  </tr>
+                  <tr>
+                    <td>S005</td>
+                    <td>Enemy</td>
+                    <td>Denis Villeneuve</td>
+                    <td>2013</td>
+                    <td><input type = "radio" name = "filme" value = "S005"></td>
+                  </tr>
+                  <tr>
+                    <td>S006</td>
+                    <td>Matrix</td>
+                    <td>Lana e Andy Wachowski</td>
+                    <td>1999</td>
+                    <td><input type = "radio" name = "filme" value = "S006"></td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th class="active">Codigo</th>
+                    <th class="active">Filme</th>
+                    <th class="active">Diretor</th>
+                    <th class="active">Ano</th>
+                    <th class="active" >Selecionar</th>
+                  </tr>
+                </thead>
+              </table>
+            </center>
+    
+          <div class="col-md-12 text-center">
+            <div> 
+              </br>
+              <span class="badge badge-warning">2º</span>
+              <div >
+                  <h2> <span class="label label-info"> Escolha a quantidade de entrada </span> </h2> 
+              </div>
+          </div>
+          <div>
+            <label>
+              <p class="label label-default">Meia Entrada</p>
+              <input type="text" name="meiaEntrada" value="0"  class="input">
+            </label>
+            <br>
+            <label>
+            <p class="label label-default">Inteira</p>
+            <input type="text" name="inteira" value="0" placeholder="Digite um numero"  class="input">
+            </label>
+            </div>
+          </div>
+           </br>        
+            <input type="submit" value="Enviar" name="submit" class="btn btn-lg btn-warning">
+          </form>
+          <br>
+          <br> 
+          <form action="index.html" method="get">
+            <input type="submit" value="Home" name="enviar" class="btn btn-lg btn-warning" >
+          </form>      
+          </div>
+        </div>
+        </div>
+
+  </div>
+  
+  
+    <footer class="section section-warning text-left">
+      <a name="contato"></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Agradecimentos</h1>
+            <p>Desenvolvido por Raul Oliveira de Andrade como nota parcial da disciplina
+              de
+              <br>Programacao Web, ministrada pelo Profº Antonio Monteiro.</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-info text-right">
+              <br>
+              <br>
+            </p>
+            <div class="row">
+              <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 hidden-xs text-right">
+                <a href="https://instagram.com/theandraderaul/"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                <a href="https://twitter.com/TheAndradeRaul"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                <a href="https://www.facebook.com/theandraderaul"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
