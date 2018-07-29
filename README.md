@@ -1,5 +1,6 @@
 # projetosPWEB
-Projetos da disciplina Programação Web 2016.2
+* Projetos da disciplina Programação Web 2016.2
+* Aluno: [Raul Andrade](https://github.com/andraderaul)
 
 ## Projeto 1 
 * Desenvolver um aplicativo Java para Web para fazer a solicitação de matrícula dos alunos de um
