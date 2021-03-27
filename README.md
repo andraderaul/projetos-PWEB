@@ -1,4 +1,4 @@
-# projetosPWEB
+# projetos-PWEB
 * Projetos da disciplina Programação Web 2016.2
 * Aluno: [Raul Andrade](https://github.com/andraderaul)
 
